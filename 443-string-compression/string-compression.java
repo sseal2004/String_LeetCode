@@ -16,8 +16,8 @@ class Solution {
             // chars[index]=count; this work for single digit 
             //but multiple digit like 3 digit or two digit 
             if(count>1){
-               String count_string = String.valueOf(count);
-               for(char ch :count_string.toCharArray() ){
+               String count_string = String.valueOf(count);//It converts an integer (count) into a String.
+               for(char ch :count_string.toCharArray() ){// for "12" --> "1" "2"
                 chars[index] = ch;//assing count as string
                 index++;
 
