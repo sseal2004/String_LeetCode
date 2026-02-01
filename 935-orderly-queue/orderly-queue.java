@@ -25,3 +25,17 @@ class Solution {
         }
     }
 }
+
+//s = "abcd"
+// n = 4
+// i	Rotation
+// 0	abcd (original string)
+// 1	bcda
+// 2	cdab
+// 3	dabc
+
+// Total rotations = n
+
+// Rotation 0 is already in result
+
+// So we only need to check rotations from 1 to n - 1
