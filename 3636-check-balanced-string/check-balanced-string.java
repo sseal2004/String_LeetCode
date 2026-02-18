@@ -5,7 +5,7 @@ class Solution {
         int sumEven = 0;
         int n = arr.length;
         for(int i=0;i<n;i++){
-        int digit = arr[i] - '0'; // convert char to digit
+        int digit = arr[i] - '0'; // convert char to int
 
             if(i%2 == 0)sumEven +=digit ;
             else sumOdd += digit;
