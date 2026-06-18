@@ -9,7 +9,6 @@ class Solution {
         for(int i=0;i<s.length();i++)if(isVowel(s.charAt(i))) ans.setCharAt(i, vowel.get(idx++));
 
         return ans.toString();
-
     }
     public boolean isVowel(char ch){
         return (ch=='A'||ch=='I'||ch=='E'||ch=='O'||ch=='U'||ch=='a'||ch=='i'||ch=='o'||ch=='u'||ch=='e');
